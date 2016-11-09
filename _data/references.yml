@@ -1,11 +1,11 @@
 ---
 -
-    referenceID:
-    author:
-    title:
-    source:
-    publicationYear:
-    pageStart:
-    pageEnd:
-    url:
-    accessDate:
+    referenceID: 1
+    author: "N.O. Tippenhauer et al"
+    title: "On the requirements for successful GPS spoofing attacks"
+    source: "Proceedings of the 18th ACM conference on Computer and communications security"
+    publicationYear: 2011
+    pageStart: 75
+    pageEnd: 86
+    url: "www.cs.ox.ac.uk/files/6489/gps.pdf"
+    accessDate: "8/23/2016"
