@@ -3,6 +3,10 @@
     ThreatCategory: Boot firmware
     ID: STA-15
     Threat: "Deliberate unlocking of bootloader by device user/owner to install custom operating systems, which could then enable an attacker to use the bootloader to install malware."
+    AttackTactics: 
+        - "None. Technically, a duplicate of another MTC threat, just with a user-centric motive for having jailbroken the device."
+    AttackTechniques:
+        - "None"
     ThreatOrigin:
     ExploitExample: "Xiaomi Locks Mi Devices\' Bootloaders On Fears Of Malware And Security Risks: Up To 21 Days To Unlock [^47]"
     CVEExample:
