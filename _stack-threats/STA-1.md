@@ -3,6 +3,10 @@
     ThreatCategory: Mobile Operating System
     ID: STA-1
     Threat: "Deliberate jailbreaking/rooting of device by its user/owner, which may place the device in a degraded security state"
+    AttackTactics:
+        - "None. Does not represent an action by an attacker, just providing a prerequisite for given attacks."
+    AttackTechniques:
+        - "None."
     ThreatOrigin: "Mobile Security: Threats and Countermeasures [^90]"
     ExploitExample:
     CVEExample: CVE-2015-3636
