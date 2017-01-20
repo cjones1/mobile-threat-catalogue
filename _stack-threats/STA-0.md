@@ -3,6 +3,10 @@
     ThreatCategory: Mobile Operating System
     ID: STA-0
     Threat: "Exploitation of operating system software vulnerabilities to gain escalated privileges."
+    AttackTactics:
+        - "Privilege Escalation [^PrivEsc]"
+    AttackTechniques:
+        - "Exploit OS Vulnerability [^ExpOSVuln]"
     ThreatOrigin:
         - "Internet Security Threat Report 2016 [^110]"
         - "Mobile Security: Threats and Countermeasures [^90]"
