@@ -3,6 +3,11 @@
     ThreatCategory: Device Drivers
     ID: STA-10
     Threat: "Low level backdoor inadvertently left by firmware developer"
+    AttackTactics:
+        - "None? As phrased, does not represent an action by an attacker."
+        - "Persistence"
+    AttackTechniques:
+        - "Modify OS Kernel or Boot Partition (Drivers are more-or-less, kernel modules, and will be executed with the same permission level as the kernel)"
     ThreatOrigin:
         - "This is what a root debug backdoor in a Linux kernel looks like [^207]"
         - "Chinese ARM vendor left developer backdoor in kernel for Android, other devices [^208]"
