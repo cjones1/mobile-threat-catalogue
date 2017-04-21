@@ -3,7 +3,10 @@ layout: threat-list
 title: EMM
 ---
 
-<p>Enterprise Mobility Management (EMM) systems are a common way of managing mobile devices in the enterprise. Although not a security technology by itself, EMMs can help to deploy policies to an enterprise's device pool and to monitor device state.</p>
+<p>Enterprise Mobility Management (EMM) systems are a common way of managing mobile devices in the enterprise. EMMs generally consist of two main components: a back-end service and an on-device agent. The back-end service provides an enterprise with administrative functions such as device provisioning, mobile policy management, stores information on registered devices, and provides notifications when security events are detected (e.g. malware installation on a managed device). The on-device agent collects and relays device information to the back-end service, applies device management policies (using mobile OS APIs), and may provide a container for additional mobiles apps and data that can be controlled more granularly than via mobile OS APIs alone.</p>
+<p>
+    This category contains threats related to vulnerabilities potentially possessed by either EMM back-end services (e.g. administrative console, database of users and registered devices), an on-device agent, or the protocols they use to communicate. As with any other security mechanism, should an attacker compromise any component of an EMM, it will gain a high level of access to sensitive data and operations.
+</p>
 
 <h2>Threat List</h2>
 <ul class="threat-list">
