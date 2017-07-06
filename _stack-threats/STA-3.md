@@ -19,6 +19,7 @@
         - CVE-2017-2467
         - CVE-2017-2485
         - CVE-2017-2487
+        - CVE-2017-2498
     PossibleCountermeasures:
         "To reduce the probability of this variety of attack, configure devices to automatically install or, at a minimum, notify users of the availability of security updates for the mobile OS, drivers, and installed apps.":
             - Enterprise
